@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="../assets/soccer-ball-svgrepo-com.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <ul>
+                <a href="index.html">
+                    <h1>Home</h1>
+                </a>
+                <a href="about.html">
+                    <h1>About</h1>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <div class="body-content">
+        <input type="text" id="result" disabled></input>
+        <div class="input">
+            <div class="team1-input">
+                <textarea name="textarea-1" id="texta-1" cols="30" rows="20" ></textarea><br>
+                <input type="number" class="input-1" id="team1" >
+                </input><br>
+                <input type="text" id="result-1" disabled></input>
+            </div>
+            <div class="team2-input">
+                <textarea name="textarea-2" id="texta-2" cols="30" rows="20" ></textarea><br>
+                <input type="number" class="input-2" id="team2" >
+                </input><br>
+                <input type="text" id="result-2" disabled></input>
+            </div>
+        </div>
+        <button type="button" id="check" onclick="myFunction()">Check</button><br>
+
+    </div>
+    <footer>
+        <div class="icone">
+            <h1>contact us</h1>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="text-footer">
+            <p>&copy; Mahdi Habibi</p>
+        </div>
+    </footer>
+    <script src ="./js/check.js"></script>
+</body>
+
+</html>
